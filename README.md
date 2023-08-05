@@ -13,15 +13,15 @@ According to https://tech.marksblogg.com/git-track-changes-in-media-office-docum
         prompt=false
 
     [diff "excel"]
-        textconv=python3 /Users/mark/Downloads/test/xlsx-dump.py
+        textconv=python3 ~/repo/git_diff/xlsx-dump.py
         binary=true
 
     [diff "powerpoint"]
-        textconv=python /Users/mark/Downloads/test/pptx-dump.py
+        textconv=python ~/repo/git_diff/pptx-dump.py
         binary=true
 
     [diff "pdf"]
-        textconv=python3 /Users/mark/Downloads/test/pdf-dump.py
+        textconv=python3 ~/repo/git_diff/pdf-dump.py
         binary=true
 
     [diff "images_videos"]
